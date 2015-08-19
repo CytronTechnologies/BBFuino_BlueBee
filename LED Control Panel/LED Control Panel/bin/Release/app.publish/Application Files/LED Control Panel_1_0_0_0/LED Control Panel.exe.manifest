@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="LED Control Panel.exe" version="1.0.0.0" publicKeyToken="c830250943e033d3" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LED Control Panel" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LED Control Panel.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LED Control Panel.exe" size="24576">
+      <assemblyIdentity name="LED Control Panel" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hEdMW34AfPJRKMfxwDINJQjreLs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Younce-PC\Younce" issuerKeyHash="bb3202d1686c0bb1551cd77eb408f750908208b5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1oROUeXOGnw4YZHWrcWg8gdTAAQ=</DigestValue></Reference></SignedInfo><SignatureValue>VGRHvKaqWuSo2PZ82GCknHbZal8+HV3pdrYwStDIVSUNKINgCqhtHP1+owJwbQyuvylOySs1lE5V0QKunmwaoVGKzeUJdtvT+yw0IHL6B/87XALXv00u+t7BrFdR0RG/8+UX05eaD7U6uw5svqRoA6pQalX5c6+996r32CRmcyY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qbg/I4suQ5MWJU4j5dumvAOZr+5ANdRBKobOO+9A8pJafJCtE8W7OEl74ZtokIfaT8LRRgiFff8SybtiqqHwcU3OUIVESYYUjkmAfy8Rqj51avGfBKT1dz7LThmSo6z5ALusq2aObjPWdd1pG7o8Wv0LD0EPPy7B8l4Hprq4dM0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="04005307f2a0c5add69161387c1acee5514e84d6" Description="" Url=""><as:assemblyIdentity name="LED Control Panel.exe" version="1.0.0.0" publicKeyToken="c830250943e033d3" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Younce-PC\Younce</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>N4iYyTio37W8a3u8rTUFTy8/Bfs=</DigestValue></Reference></SignedInfo><SignatureValue>oE8VGtxYVRTLi8JyboV8rG7fqBtXzLL53Mx1b01x2XGd0UWE19RoXDKtPnZoW0t3euXseQKnRAUMOR7FRkObH6im4ev65Jww2yTkQqc0dGZK29m1DuVNafMJ3C7+qY/KZWxFPg3fRyEabL9BB10l3aef5LU5KqpfR6uxIZqFMDU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qbg/I4suQ5MWJU4j5dumvAOZr+5ANdRBKobOO+9A8pJafJCtE8W7OEl74ZtokIfaT8LRRgiFff8SybtiqqHwcU3OUIVESYYUjkmAfy8Rqj51avGfBKT1dz7LThmSo6z5ALusq2aObjPWdd1pG7o8Wv0LD0EPPy7B8l4Hprq4dM0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQczjq3WS5X5ZOyuUs20qXHTANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAWQBvAHUAbgBjAGUALQBQAEMAXABZAG8AdQBuAGMAZTAeFw0xMjA3MTkwMzU4MTBaFw0xMzA3MTkwOTU4MTBaMCsxKTAnBgNVBAMeIABZAG8AdQBuAGMAZQAtAFAAQwBcAFkAbwB1AG4AYwBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpuD8jiy5DkxYlTiPl26a8A5mv7kA11EEqhs4770Dyklp8kK0Txbs4SXvhm2iQh9pPwtFGCIV9/xLJu2KqofBxTc5QhURJhhSOSYB/LxGqPnVq8Z8EpPV3PstOGZKjrPkAu6yrZo5uM9Z13Wkbujxa/QsPQQ8/LsHyXgemurh0zQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAD+GPekhk1413Y5z/UnA/WabDzedZt9mM7hOwzcfz26TZtG7eO2rgkOXA2Gyj7rzEOmOn2am2Ybwfz9mU/1esUHSRwdMySwKxSqc/3V5yuyFpVKONGSRAtRhzePt2kjz2+8eIg90cz6UHL19YzG0PqTD6GX3Kpp4GGGfjg8DjjL5</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

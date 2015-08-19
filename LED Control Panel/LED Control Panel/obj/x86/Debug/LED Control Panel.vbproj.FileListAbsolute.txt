@@ -1,0 +1,15 @@
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\bin\Debug\LED Control Panel.exe
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\bin\Debug\LED Control Panel.pdb
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\bin\Debug\LED Control Panel.xml
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\LED_Control_Panel.main_form.resources
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\LED_Control_Panel.Resources.resources
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\LED Control Panel.exe
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\LED Control Panel.xml
+C:\Users\Younce\documents\visual studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\LED Control Panel.pdb
+C:\Users\Younce\Documents\Visual Studio 2010\Projects\LED Control Panel\LED Control Panel\bin\Debug\LED Control Panel.exe.manifest
+C:\Users\Younce\Documents\Visual Studio 2010\Projects\LED Control Panel\LED Control Panel\bin\Debug\LED Control Panel.application
+C:\Users\Younce\Documents\Visual Studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\LED Control Panel.exe.manifest
+C:\Users\Younce\Documents\Visual Studio 2010\Projects\LED Control Panel\LED Control Panel\obj\x86\Debug\LED Control Panel.application
